@@ -1,4 +1,7 @@
 import WebServer from './web.server'
+// import App from './app'
+// import React from 'react'
+// import {shallow} from 'enzyme'
 
 describe("Started" , ()=>{
     let webServer = null;
@@ -17,3 +20,10 @@ describe("Started" , ()=>{
         await expect(promise).resolves.toBeUndefined()
     })
 })          
+// describe('App', () => {
+//   test('should match snapshot', () => {
+//     const wrapper = shallow(<App/>)
+//     expect(wrapper.find('div').text()).toBe('Welcome to React Boilerplate App')
+//     expect(wrapper).toMatchSnapshot()
+//   })
+// })

@@ -5,7 +5,7 @@ export default class App extends Component {
     render(){
         return(
             <div>
-                <h3>React Boiler Plate ;) </h3>
+                Welcome to React Boilerplate App
             </div>
         )
     }
